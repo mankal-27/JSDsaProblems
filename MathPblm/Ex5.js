@@ -46,3 +46,22 @@ function checkEvenOddUsingBitwiseOr(num){
 moduloOperation(4);
 checkEvenOddUsingBitwiseAnd(3)
 checkEvenOddUsingBitwiseOr(5);
+
+//JavaScript Program to Check if a number is Positive, Negative, or Zero
+
+function checkNumSign(num){
+    switch(Math.sign(num)){
+        case 1: 
+            console.log("The Number is Positive");
+            break
+        case -1: 
+            console.log("The Number is Negative");
+            break    
+        default:
+            console.log("The Number is zero");
+    }
+}
+
+checkNumSign(3)
+checkNumSign(-3)
+checkNumSign(0)
