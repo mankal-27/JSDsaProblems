@@ -1,0 +1,23 @@
+{
+  "name": "jsdsaproblems",
+  "version": "1.0.0",
+  "description": "JS DSA Problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankal-27/JSDsaProblems.git"
+  },
+  "keywords": [],
+  "author": "Manjunath kalkutagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mankal-27/JSDsaProblems/issues"
+  },
+  "homepage": "https://github.com/mankal-27/JSDsaProblems#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
