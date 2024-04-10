@@ -1,2 +1,2 @@
 # Problems
-GeekForGeek Problems
+JS DSA Problem Set with Challenges
