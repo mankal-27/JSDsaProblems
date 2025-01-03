@@ -71,7 +71,7 @@ console.log("The length of the longest subarray is:", len);
 
 
 
-function getLongestSubarray(a, k) {
+function getLongestSubarray2(a, k) {
     let n = a.length; // size of the array
 
     let left = 0, right = 0; // 2 pointers
@@ -98,11 +98,5 @@ function getLongestSubarray(a, k) {
     return maxLen;
 }
 
-let a = [2, 3, 5, 1, 9];
-let k = 10;
-let len = getLongestSubarray(a, k);
-console.log("The length of the longest subarray is:", len);
-
-
-
-
+let length = getLongestSubarray2(a, k);
+console.log("The length of the longest subarray is:", length);
